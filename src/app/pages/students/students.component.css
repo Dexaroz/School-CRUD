@@ -1,0 +1,36 @@
+.add-btn-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3vh;
+}
+
+.new-btn {
+  padding: 6px 12px;
+  font-size: 13px;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
+  margin-right: 5px;
+  cursor: pointer;
+  color: white;
+  background-color: #2e8819;
+}
+
+.new-btn:hover {
+  background-color: #1d5c11;
+}
+
+.crud-table-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,0 +1,19 @@
+<div class="title-container">
+  <h1 id="title">Grades</h1>
+</div>
+
+<div class="add-btn-container">
+  <button class="new-btn" (click)="onAdd()">New</button>
+</div>
+
+<div class="crud-table-container">
+  <app-crud-table
+    [items]="grades"
+    [fields]="fields"
+    [students]="studentsMap"
+    [subjects]="subjectsMap"
+    (onEdit)="onEdit($event)"
+    (onDelete)="remove($event)">
+  </app-crud-table>
+
+</div>

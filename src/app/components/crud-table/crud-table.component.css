@@ -1,0 +1,96 @@
+.crud-table {
+  width: 35vw;
+  border-collapse: collapse;
+  margin-top: 20px;
+  font-family: Arial, sans-serif;
+  background-color: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+  overflow: hidden;
+  flex-direction: column;
+  justify-self: center;
+}
+
+.crud-table th,
+.crud-table td {
+  padding: 12px;
+  text-align: left;
+}
+
+.crud-table th {
+  background-color: #f5f5f5;
+  font-weight: bold;
+  font-size: 15px;
+  border-bottom: 1px solid #ddd;
+  color: #333;
+}
+
+.crud-thead-row {
+  background-color: #f4f4f4;
+}
+
+.crud-table tr:not(:last-child) {
+  border-bottom: 1px solid #eee;
+}
+
+.crud-table tr:hover {
+  background-color: #f9f9f9;
+}
+
+.crud-table td:first-child,
+.crud-table th:first-child {
+
+}
+
+.crud-table td:last-child,
+.crud-table th:last-child {
+  text-align: center;
+}
+
+.crud-table .crud-item {
+  width: 100%;
+}
+
+.crud-item {
+  transition: background-color 0.2s ease-in-out;
+}
+
+.crud-item:hover {
+  background-color: #f9f9f9;
+}
+
+.crud-field {
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  color: #333;
+}
+
+.edit-btn,
+.delete-btn {
+  padding: 6px 12px;
+  font-size: 13px;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
+  margin-right: 5px;
+  cursor: pointer;
+  color: white;
+}
+
+.edit-btn {
+  background-color: #f0ad4e;
+}
+
+.edit-btn:hover {
+  background-color: #ec971f;
+}
+
+.delete-btn {
+  background-color: #d9534f;
+}
+
+.delete-btn:hover {
+  background-color: #c9302c;
+}
