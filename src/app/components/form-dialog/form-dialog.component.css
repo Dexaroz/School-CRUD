@@ -80,8 +80,19 @@ form {
   background-color: #f0f0f0;
 }
 
-.save-btn:invalid {
-  background-color: #ff0000;
+.clear-btn {
+  background-color: transparent;
+  color: #1976d2;
+  border: 1px solid #1976d2;
+  padding: 0.5rem 1.2rem;
+  font-size: 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.clear-btn:hover {
+  background-color: #f0f0f0;
 }
 
 .error {

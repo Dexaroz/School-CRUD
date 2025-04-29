@@ -86,6 +86,10 @@ export class FormDialogComponent implements OnInit {
     }
   }
 
+  clear(){
+    this.formData = {};
+  }
+
   getErrorMessage(field: string, errors: any) {
     if (!errors) return '';
 
