@@ -1,9 +1,9 @@
 .header-container {
   width: 100%;
   height: 8vh;
-  background-color: #dadada;
+  background-color: #bd5e5e;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  color: #4c4c4c;
+  color: black;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -47,11 +47,12 @@
 
 .nav-menu-link {
   text-decoration: none;
-  color: #4c4c4c;
+  color: black;
   font-weight: bold;
   transition: color 0.1s;
 }
 
 .nav-menu-link:hover {
   color: #020202;
+  transform: scale(1.2);
 }
